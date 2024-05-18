@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  height: fit-content;
+  width: 100%;
+  font-family: "Sora", sans-serif;
+  background-color: #151027;
+  box-sizing: border-box;
+}
+
+.text-gradient{
+  background: -webkit-linear-gradient(360deg, rgba(248,117,22,1) 0%, rgba(94,17,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
