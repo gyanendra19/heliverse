@@ -1,4 +1,5 @@
 import React from 'react'
+import { RiArrowRightLine } from '@remixicon/react'
 
 const Ratings = () => {
 
@@ -26,7 +27,7 @@ const Ratings = () => {
           <div className="flex flex-col gap-6 basis-3/5">
             <p className="text-4xl leading-[52px] font-semibold text-white">Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</p>
             <p className="text-gray-400 leading-8">Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
-            <button className="px-6 py-4 w-fit rounded-2xl text-xl text-white bg-gradient-primary">Purcahse from Envato</button>
+            <button className="px-6 py-4 w-fit flex items-center gap-3 rounded-2xl text-xl text-white bg-gradient-primary">Purcahse from Envato <RiArrowRightLine color='white' /></button>
           </div>
 
           <img src="./magic.png" alt="" />
