@@ -14,16 +14,16 @@ const Ratings = () => {
     }
   return (
     <>
-     <div>
+     <div className='relative z-50'>
           <p className="w-fill text-center pb-14 text-lg text-white font-medium tracking-wide">Trusted by thousands of users around the world</p>
-          <div className="flex justify-between px-12">
+          <div className="flex md:flex-row items-center gap-16 flex-col justify-between md:px-12">
            {ratingBox('rating3')}
            {ratingBox('rating2')}
            {ratingBox('rating1')}
           </div>
         </div>
 
-        <div className="flex justify-between pt-28 pb-10 px-10 relative z-[100]">
+        <div className="flex md:felx-col flex-col gap-6 justify-between pt-28 pb-10 px-10 relative z-[100]">
           <div className="flex flex-col gap-6 basis-3/5">
             <p className="text-4xl leading-[52px] font-semibold text-white">Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</p>
             <p className="text-gray-400 leading-8">Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
